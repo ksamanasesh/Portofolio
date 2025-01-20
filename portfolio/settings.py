@@ -55,7 +55,7 @@ ROOT_URLCONF = 'portfolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Manasesh/Projects/Portofolio/templates/application'],
+        'DIRS': ['var/task/templates/application'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
