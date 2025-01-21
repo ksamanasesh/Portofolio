@@ -27,6 +27,7 @@ urlpatterns = [
     path('',views.home,name='home'),
     path('index',views.home,name='home'),
     path('about',views.about,name='aboutme'),
+    path('qualify',views.Qualification,name='qualification'),
     path('contact',views.contact,name='contact'),
 ]
 
